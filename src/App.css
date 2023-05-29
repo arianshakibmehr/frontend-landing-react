@@ -1,23 +1,32 @@
 @import url("https://fonts.googleapis.com/css2?family=Island+Moments&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
 
+@font-face {
+  font-family: "YekanBakh-Black";
+  src: local("YekanBakh-Black"),
+    url(./fonts/YekanBakh-Black.ttf) format("truetype");
+}
+
 :root {
   --primary-color: #ff7e01;
   --secondary-color: #faa935;
   --heading-color: #0b2727;
   --text-color: #6e7074;
-  --font-name: "Montserrat", sans-serif;
-  --subtitle-font-name: "Island Moments", cursive;
+  --font-name: "YekanBakh-Black", sans-serif;
+  --subtitle-font-name: "YekanBakh-Black", cursive;
+  font-family: YekanBakh-Black;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: YekanBakh-Black;
 }
 
 body {
-  font-family: var(--font-name);
+  font-family: YekanBakh-Black;
+  direction: rtl;
 }
 
 section {
