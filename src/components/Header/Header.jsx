@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Button } from "reactstrap";
 import { NavLink, Link } from "react-router-dom";
+import Sidebar from "../Sidebar";
 
 import logo from "../../assets/images/logo.png";
 
@@ -71,9 +72,7 @@ const Header = () => {
                 </Button>
               </div>
 
-              <span className="mobile__menu">
-                <i className="ri-menu-line"></i>
-              </span>
+              <Sidebar />
             </div>
           </div>
         </Row>

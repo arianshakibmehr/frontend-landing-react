@@ -9,17 +9,17 @@ import customizationImg from "../assets/images/customization.png";
 const servicesData = [
   {
     imgUrl: weatherImg,
-    title: "محاسبه آب و هوا",
+    title: "هتل ها و رستوران ها",
     desc: "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است",
   },
   {
     imgUrl: guideImg,
-    title: "بهترین راهنمای تور",
+    title: "برنامه ها",
     desc: "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است",
   },
   {
     imgUrl: customizationImg,
-    title: "سفارشی سازی",
+    title: "راهنمای صوتی",
     desc: "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است",
   },
 ];

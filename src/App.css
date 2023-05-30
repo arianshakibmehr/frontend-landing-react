@@ -94,3 +94,10 @@ ul {
   font-size: 1.7rem;
   color: var(--heading-color);
 }
+
+@media screen and (max-width: 768px) {
+  .search__bar,
+  .header {
+    display: none;
+  }
+}

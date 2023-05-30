@@ -9,8 +9,8 @@ import tourImg07 from "../images/tour-img07.jpg";
 const tours = [
   {
     id: "01",
-    title: "Westminister Bridge",
-    city: "London",
+    title: "پل ساری",
+    city: "مازندران",
     distance: 300,
     price: 99,
     maxGroupSize: 10,
@@ -27,8 +27,8 @@ const tours = [
   },
   {
     id: "02",
-    title: "Bali, Indonesia",
-    city: "Indonesia",
+    title: "سواحل جنوب",
+    city: "کیش و قشم",
     distance: 400,
     price: 99,
     maxGroupSize: 8,
@@ -45,8 +45,8 @@ const tours = [
   },
   {
     id: "03",
-    title: "Snowy Mountains, Thailand",
-    city: "Thailand",
+    title: "کوه های ایران",
+    city: "دماوند",
     distance: 500,
     price: 99,
     maxGroupSize: 8,
@@ -63,8 +63,8 @@ const tours = [
   },
   {
     id: "04",
-    title: "Beautiful Sunrise, Thailand",
-    city: "Thailand",
+    title: "طلوع آفتاب",
+    city: "ساری",
     distance: 500,
     price: 99,
     maxGroupSize: 8,
@@ -81,8 +81,8 @@ const tours = [
   },
   {
     id: "05",
-    title: "Nusa Pendia Bali, Indonesia",
-    city: "Indonesia",
+    title: "طبیعت بکر",
+    city: "گیلان",
     distance: 500,
     price: 99,
     maxGroupSize: 8,
@@ -99,8 +99,8 @@ const tours = [
   },
   {
     id: "06",
-    title: "Cherry Blossoms Spring",
-    city: "Japan",
+    title: "دریاچه زیبا",
+    city: "ساری",
     distance: 500,
     price: 99,
     maxGroupSize: 8,
@@ -117,8 +117,8 @@ const tours = [
   },
   {
     id: "07",
-    title: "Holmen Lofoten",
-    city: "France",
+    title: "هتل زیبا",
+    city: "قشم",
     distance: 500,
     price: 99,
     maxGroupSize: 8,
@@ -135,8 +135,8 @@ const tours = [
   },
   {
     id: "08",
-    title: "Snowy Mountains, Thailand",
-    city: "Thailand",
+    title: "کوه های برفی",
+    city: "فیروزکوه",
     distance: 500,
     price: 99,
     maxGroupSize: 8,

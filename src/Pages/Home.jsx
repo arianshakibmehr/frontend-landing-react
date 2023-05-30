@@ -12,6 +12,7 @@ import SearchBar from "../shared/SearchBar";
 import ServiceList from "../services/ServiceList";
 
 import FeaturedTourList from "../components/Featured-tours/FeaturedTourList";
+import MasonryImagesGallery from "../components/Image-gallery/MasonryImagesGallery";
 
 const Home = () => {
   return (
@@ -76,6 +77,22 @@ const Home = () => {
           </Row>
         </Container>
       </section>
+
+      {/* Gallery Dirty Start */}
+      <section>
+        <Container>
+          <Row>
+            <Col lg="12">
+              <Subtitle subtitle={"گالری تصاویر"} />
+              <h2 className="gallery__title">ما را دنبال کنید!</h2>
+            </Col>
+            <Col lg="12">
+              <MasonryImagesGallery />
+            </Col>
+          </Row>
+        </Container>
+      </section>
+      {/* Gallery Dirty End */}
 
       {/* Tour Section Start */}
 
