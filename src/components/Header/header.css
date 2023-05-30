@@ -4,8 +4,12 @@
   line-height: 80px;
 }
 
+.logo {
+  width: 20%;
+}
+
 .logo img {
-  width: 30%;
+  width: 60%;
 }
 
 .menu {
@@ -30,7 +34,7 @@
 .mobile__menu {
   font-size: 1.3rem;
   color: var(--heading-color);
-  display: none;
+  /* display: none; */
 }
 
 .sticky__header {
